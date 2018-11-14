@@ -24,6 +24,6 @@ print abc.coef_
 print 'intercept:'
 print abc.intercept_
 xPred = [102, 6]
-yPred = abc.predict(xPred)
+yPred = abc.predict([xPred])
 print 'y:'
 print yPred

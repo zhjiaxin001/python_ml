@@ -18,12 +18,12 @@ print Y
 
 abc = linear_model.LinearRegression()
 abc.fit(X, Y)
-
-print('coefficients:')
-print abc.coef_
-print 'intercept:'
-print abc.intercept_
-xPred = [102, 6]
-yPred = abc.predict(xPred)
+print(X.shape)
+# print('coefficients:')
+# print abc.coef_
+# print 'intercept:'
+# print abc.intercept_
+xPred = [100,4,0,1,0]
+yPred = abc.predict([xPred])
 print 'y:'
 print yPred
