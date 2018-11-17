@@ -11,7 +11,7 @@ def gradientDescent(x, y, theta, alpha, m, numIterations):
         print ("Iteration %d  |  cost %f"% (i, cost))
         gradient = np.dot(xTrans, loss)/m
         theta = theta - alpha*gradient
-    return theta
+        return theta
 
 #variance :方差
 def genData(numPoints, bias, variance):
